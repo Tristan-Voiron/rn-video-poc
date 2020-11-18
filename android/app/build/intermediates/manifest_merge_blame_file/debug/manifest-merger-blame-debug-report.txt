@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rn_video_poc"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:6:5-70
+14-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:6:22-68
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.54.0] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.54.0] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+16
+17    <uses-feature
+17-->[:react-native-camera] /Users/tristanvoiron/Dev/rn-video-poc/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+18        android:name="android.hardware.camera"
+18-->[:react-native-camera] /Users/tristanvoiron/Dev/rn-video-poc/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+19        android:required="false" />
+19-->[:react-native-camera] /Users/tristanvoiron/Dev/rn-video-poc/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+20    <uses-feature
+20-->[:react-native-camera] /Users/tristanvoiron/Dev/rn-video-poc/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+21        android:name="android.hardware.camera.autofocus"
+21-->[:react-native-camera] /Users/tristanvoiron/Dev/rn-video-poc/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+22        android:required="false" />
+22-->[:react-native-camera] /Users/tristanvoiron/Dev/rn-video-poc/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+23
+24    <application
+24-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:8:5-27:19
+25        android:name="com.rn_video_poc.MainApplication"
+25-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:9:7-38
+26        android:allowBackup="false"
+26-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:13:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:11:7-41
+30        android:label="@string/app_name"
+30-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:10:7-39
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:12:7-52
+32        android:theme="@style/AppTheme"
+32-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:14:7-38
+33        android:usesCleartextTraffic="true" >
+33-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/debug/AndroidManifest.xml:7:18-53
+34        <activity
+34-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:15:7-25:18
+35            android:name="com.rn_video_poc.MainActivity"
+35-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:16:9-37
+36            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+36-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:18:9-86
+37            android:label="@string/app_name"
+37-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:17:9-41
+38            android:launchMode="singleTask"
+38-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:19:9-40
+39            android:windowSoftInputMode="adjustResize" >
+39-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:20:9-51
+40            <intent-filter>
+40-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:21:9-24:25
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:22:13-65
+41-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:22:21-62
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:23:13-73
+43-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:23:23-70
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+46-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:26:7-84
+46-->/Users/tristanvoiron/Dev/rn-video-poc/android/app/src/main/AndroidManifest.xml:26:17-81
+47        <activity
+47-->[com.google.android.gms:play-services-base:16.0.1] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/48bf921863ac3138b5cf38e7c1350c97/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+48            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+48-->[com.google.android.gms:play-services-base:16.0.1] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/48bf921863ac3138b5cf38e7c1350c97/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+49            android:exported="false"
+49-->[com.google.android.gms:play-services-base:16.0.1] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/48bf921863ac3138b5cf38e7c1350c97/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+50-->[com.google.android.gms:play-services-base:16.0.1] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/48bf921863ac3138b5cf38e7c1350c97/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+51
+52        <meta-data
+52-->[com.google.android.gms:play-services-basement:16.1.0] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/7300b928ece95a9e1dd14a69311cfa6e/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+53            android:name="com.google.android.gms.version"
+53-->[com.google.android.gms:play-services-basement:16.1.0] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/7300b928ece95a9e1dd14a69311cfa6e/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+54            android:value="@integer/google_play_services_version" />
+54-->[com.google.android.gms:play-services-basement:16.1.0] /Users/tristanvoiron/.gradle/caches/transforms-2/files-2.1/7300b928ece95a9e1dd14a69311cfa6e/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+55    </application>
+56
+57</manifest>

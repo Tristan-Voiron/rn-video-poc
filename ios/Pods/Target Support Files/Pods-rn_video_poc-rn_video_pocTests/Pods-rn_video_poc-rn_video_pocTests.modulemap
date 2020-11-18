@@ -1,0 +1,6 @@
+module Pods_rn_video_poc_rn_video_pocTests {
+  umbrella header "Pods-rn_video_poc-rn_video_pocTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
